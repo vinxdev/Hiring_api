@@ -17,7 +17,7 @@ public class Skills {
     private Long id;
 
     @Column(nullable = false,length = 50)
-    private String location;
+    private String name;
 
     @ManyToOne
     @JoinColumn(name = "candidate_id", nullable = false)
